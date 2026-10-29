@@ -16,7 +16,7 @@ EXPECTED_DEFAULT_PROBABILITY = 0.1553637840658864
 
 
 st.set_page_config(
-    page_title="Severe LVH Risk Calculator",
+    page_title="Severe LVH Risk Calculator for Patients Receiving Maintenance Dialysis",
     page_icon="♥",
     layout="wide",
     initial_sidebar_state="collapsed",
@@ -73,7 +73,14 @@ def inject_styles():
           font-weight: 500;
           margin: 0 0 20px;
         }
-        .hero h1 span { color: #a9ddd8; }
+        .hero h1 span {
+          display: block;
+          color: #a9ddd8;
+          font-size: clamp(1.7rem, 3vw, 3rem);
+          line-height: 1.08;
+          letter-spacing: -.03em;
+          margin-top: .3em;
+        }
         .hero p { color: #d8e6eb; font-size: 1.05rem; max-width: 650px; margin: 0; }
         .section-label {
           color: var(--accent);
@@ -228,8 +235,8 @@ def main():
     st.markdown(
         """
         <section class="hero">
-          <h1>Severe LVH<br><span>risk calculator</span></h1>
-          <p>Enter nine clinical variables to estimate the probability of severe left ventricular hypertrophy.</p>
+          <h1>Severe LVH Risk Calculator<span>for Patients Receiving Maintenance Dialysis</span></h1>
+          <p>This calculator estimates the probability of severe left ventricular hypertrophy in adult patients receiving maintenance hemodialysis or peritoneal dialysis.</p>
         </section>
         """,
         unsafe_allow_html=True,
@@ -309,4 +316,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
