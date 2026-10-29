@@ -1,0 +1,153 @@
+{
+  "intercept_original": 1.1952525098972755,
+  "point_scale": 0.03003136864152324,
+  "predictors": [
+    {
+      "key": "sex",
+      "label": "Sex",
+      "unit": "",
+      "type": "binary",
+      "categories": [
+        "Female",
+        "Male"
+      ],
+      "coefficient_original": -0.5554375523735403,
+      "observed_min": 0.0,
+      "observed_max": 1.0,
+      "nomogram_min": 0.0,
+      "nomogram_max": 1.0,
+      "default": 1.0,
+      "decimals": 0,
+      "contribution_min": -0.5554375523735403
+    },
+    {
+      "key": "beta_blocker",
+      "label": "Beta-blocker use",
+      "unit": "",
+      "type": "binary",
+      "categories": [
+        "No",
+        "Yes"
+      ],
+      "coefficient_original": 0.6142553580588522,
+      "observed_min": 0.0,
+      "observed_max": 1.0,
+      "nomogram_min": 0.0,
+      "nomogram_max": 1.0,
+      "default": 0.0,
+      "decimals": 0,
+      "contribution_min": 0.0
+    },
+    {
+      "key": "raas_inhibitor",
+      "label": "RAAS inhibitor use",
+      "unit": "",
+      "type": "binary",
+      "categories": [
+        "No",
+        "Yes"
+      ],
+      "coefficient_original": 1.2169428304902543,
+      "observed_min": 0.0,
+      "observed_max": 1.0,
+      "nomogram_min": 0.0,
+      "nomogram_max": 1.0,
+      "default": 0.0,
+      "decimals": 0,
+      "contribution_min": 0.0
+    },
+    {
+      "key": "erythropoietin",
+      "label": "Erythropoietin use",
+      "unit": "",
+      "type": "binary",
+      "categories": [
+        "No",
+        "Yes"
+      ],
+      "coefficient_original": 0.3998145912607175,
+      "observed_min": 0.0,
+      "observed_max": 1.0,
+      "nomogram_min": 0.0,
+      "nomogram_max": 1.0,
+      "default": 0.0,
+      "decimals": 0,
+      "contribution_min": 0.0
+    },
+    {
+      "key": "sbp",
+      "label": "Systolic blood pressure",
+      "unit": "mmHg",
+      "type": "continuous",
+      "categories": null,
+      "coefficient_original": 0.01922762467526995,
+      "observed_min": 74.0,
+      "observed_max": 280.0,
+      "nomogram_min": 88.22,
+      "nomogram_max": 216.23999999999978,
+      "default": 151.0,
+      "decimals": 0,
+      "contribution_min": 1.6962610488523149
+    },
+    {
+      "key": "hemoglobin",
+      "label": "Hemoglobin",
+      "unit": "g/L",
+      "type": "continuous",
+      "categories": null,
+      "coefficient_original": -0.03110125170000336,
+      "observed_min": 30.0,
+      "observed_max": 161.0,
+      "nomogram_min": 53.22,
+      "nomogram_max": 149.77999999999997,
+      "default": 95.0,
+      "decimals": 0,
+      "contribution_min": -4.658345479626503
+    },
+    {
+      "key": "total_cholesterol",
+      "label": "Total cholesterol",
+      "unit": "mmol/L",
+      "type": "continuous",
+      "categories": null,
+      "coefficient_original": -0.23836831953417287,
+      "observed_min": 1.19,
+      "observed_max": 14.82,
+      "nomogram_min": 2.0366,
+      "nomogram_max": 8.132599999999995,
+      "default": 3.95,
+      "decimals": 1,
+      "contribution_min": -1.938554195443613
+    },
+    {
+      "key": "ipth",
+      "label": "Intact parathyroid hormone",
+      "unit": "pg/mL",
+      "type": "continuous",
+      "categories": null,
+      "coefficient_original": 0.0010064170277713895,
+      "observed_min": 2.5,
+      "observed_max": 3458.0,
+      "nomogram_min": 10.055200000000001,
+      "nomogram_max": 2128.273999999999,
+      "default": 245.9,
+      "decimals": 0,
+      "contribution_min": 0.010119724497646877
+    },
+    {
+      "key": "smr",
+      "label": "Skeletal muscle radiodensity",
+      "unit": "HU",
+      "type": "continuous",
+      "categories": null,
+      "coefficient_original": -0.04376787424880029,
+      "observed_min": 15.3802,
+      "observed_max": 56.717,
+      "nomogram_min": 18.544676,
+      "nomogram_max": 50.777635999999994,
+      "default": 36.2738,
+      "decimals": 1,
+      "contribution_min": -2.222429187099354
+    }
+  ]
+}
